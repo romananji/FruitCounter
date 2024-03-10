@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fruits-container {
+  min-height: 80vh;
+  background-color: #ffffff;
+  min-width: 80vw;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .fruits-container {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.button {
+  height: 40px;
+  width: 140px;
+  border-style: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    margin-top: 20px;
+  }
+}
+.image {
+  height: 200px;
+  width: 150px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width:768px){
+ .card {
+  margin-bottom: 20px;
+  margin-top: 10px;
+ } 
+}
+.span-element {
+  color: #ffd569;
+}
+.about {
+  font-weight: bold;
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    font-size: 17px;
+  }
+}
